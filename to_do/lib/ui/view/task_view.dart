@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:to_do/custom_widgets.dart';
+import 'package:to_do/ui/view/widgets/add_task_button.dart.dart';
 import 'package:to_do/task_model.dart';
 import 'package:to_do/task_viewmodel.dart';
+import 'package:to_do/ui/view/widgets/task_card.dart';
 
 class ListScreen extends StatelessWidget {
   const ListScreen({super.key});
